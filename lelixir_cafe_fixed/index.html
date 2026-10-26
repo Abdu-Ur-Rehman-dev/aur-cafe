@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>L'Élixir Atelier & Café — Luxury Artisanal Roastery & Patisserie</title>
+    <meta name="description" content="Ultra-premium luxury coffee atelier and artisanal patisserie featuring single-origin micro-lots, master roasting, and cinematic dark espresso ambiance." />
+    
+    <!-- OpenGraph Tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="L'Élixir Atelier & Café — Luxury Artisanal Roastery" />
+    <meta property="og:description" content="Ultra-premium luxury coffee atelier and artisanal patisserie. Crafted for every moment." />
+    <meta property="og:site_name" content="L'Élixir Atelier & Café" />
+    
+    <!-- Twitter Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="L'Élixir Atelier & Café" />
+    <meta name="twitter:description" content="Ultra-premium luxury coffee atelier and artisanal patisserie." />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Schema.org JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CafeOrCoffeeShop",
+      "name": "L'Élixir Atelier & Café",
+      "description": "Ultra-premium luxury coffee atelier and artisanal patisserie featuring single-origin micro-lots.",
+      "image": "/src/assets/images/hero_espresso_cup_1792997591535.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "742 Fifth Avenue",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10019",
+        "addressCountry": "US"
+      },
+      "priceRange": "$$$$",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "07:00",
+          "closes": "21:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Saturday", "Sunday"],
+          "opens": "08:00",
+          "closes": "22:00"
+        }
+      ],
+      "servesCuisine": ["Coffee", "Pastries", "Artisanal Desserts", "French Patisserie"]
+    }
+    </script>
+  </head>
+  <body class="bg-[#241711] text-[#FFF9F1] antialiased selection:bg-[#B98252] selection:text-[#241711] font-sans overflow-x-hidden">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

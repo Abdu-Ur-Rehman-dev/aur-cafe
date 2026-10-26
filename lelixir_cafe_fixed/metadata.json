@@ -1,0 +1,6 @@
+{
+  "name": "L'Élixir Atelier & Café",
+  "description": "Ultra-premium luxury coffee atelier and artisanal patisserie featuring single-origin micro-lots, master roasting, and cinematic ambiance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
